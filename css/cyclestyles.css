@@ -1,0 +1,222 @@
+/** 
+
+File Name: cyclestyles.css 
+
+@Author: Utsavkumar Patel ,000820474 
+
+**/
+
+
+
+
+/* Seminars Section css */
+
+
+table{
+   border:1px solid black;
+   border-collapse:collapse;
+   
+}	
+
+th ,td{
+	border:1px solid black;
+}	
+
+header{
+   width:100%;
+   text-align:center;
+   background-color: rgb(147,182,202);
+   font-size:45px;
+   font-weight:bold;
+}
+
+table.maintable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.legendtag caption{
+   caption-side:top;
+   text-align:left;
+   font-family:Arial;   
+}	
+
+nav{
+    background-color: #4681a4;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}	
+
+nav a{
+   color: white;
+   text-decoration: none;
+   border: 2px solid black;
+   align-self: center;
+   padding: 10px;
+   margin-right: 10px;
+   margin-top: 14px;
+   background-color: lightsteelblue;
+   font-size: 1em;
+   border-radius: 0 10px 0 10px;
+      
+}	
+
+nav a:hover{
+   background-color: rgb(46,59,66);
+   color:white;
+}
+
+.legendtag{
+	border:none;
+	margin-bottom:1rem;
+	caption-side: top;
+}	
+
+.legendtag th {
+   height:40px;
+   width: 11px;
+   border:none;   
+}
+
+.legendtag td{
+	border: none;
+	height: 25px;
+	
+	
+}	
+
+thead td{
+   color:white;
+   background-color:#888888;   
+   height:30px;
+   padding:10px;
+   text-align:center;
+}
+
+.firstcol{
+	background-color:#ddeeff;
+	width:10%;
+}	
+/* table colors */
+
+.maintable{
+   width:90%;
+   height:500px; 
+}
+
+.backimage{
+    background-image:url(images/dust.jpg);
+	text-align:center;
+	font-weight:bold;
+}	
+
+.begincycle{
+	background-color: lightskyblue;
+	vertical-align:top;
+	padding-left:10px;
+	padding-top: 10px;
+}
+.longdist{
+	background-color:#ADFF2F;
+	vertical-align:center;
+	padding-left:5px;
+	
+}	
+
+.birepair{
+	background-color:#BA55DF;
+	vertical-align:top;
+	padding-left:10px;
+	padding-top: 10px;
+}
+
+.tripplan{
+   background-color:#FFB6C1;
+   vertical-align:top;
+   padding-left:10px;
+   padding-top: 10px;
+}	
+
+
+.maintable caption{
+   caption-side:bottom;
+   text-align:right;
+   padding-left:10px;
+   padding-top: 10px;
+   font-size:0.9em;
+}
+
+maintable th,td{
+   font-size:0.9em;	
+}
+	
+.borderline{
+	border:2px solid black;
+	width:100%;
+}	
+	
+	
+
+	
+	
+/* Reviews Section Css  */
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1.2em;	
+}
+
+.abcd{
+   background-color:#ffffe6;	
+}
+
+
+
+
+
+#formone{
+	padding: 20px;
+	background-color: #8d9db6;
+	border-radius: 0 15px 0 15px;
+}
+
+#formtrip{
+	background-color: #8d9db6;
+	padding: 20px;
+	border-radius: 0 15px 0 15px;
+	
+}
+
+#form3{
+	background-color:  #8d9db6;
+	padding: 20px;
+	border-radius: 0 15px 0 15px;
+}
+
+
+
+#mainfieldset{
+	border: 1px solid black;
+	background-color:  #4681A4;
+	padding: 20px;
+	margin-left: 2em;
+	border-radius: 0 15px 0 15px;
+	margin-right: 2em;
+}
+
+legend{
+	border: 1px solid white;
+	border-radius: 0 15px 0 15px;
+	background-color:  #936FA3;
+	padding: 10px;
+	
+}
+
+
+
